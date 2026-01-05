@@ -30,6 +30,7 @@ Source ERD (Pagila transactional schema):
 ![Pagila ERD](docs/erd.png)
 
 ## Folder Structure
+```text
 pagila-revenue-analytics/
 ├── README.md
 ├── docs/
@@ -47,11 +48,11 @@ pagila-revenue-analytics/
 │   ├── 07_fact_revenue.sql
 │   └── 08_validation_queries.sql
 └── screenshots/
-├── pgadmin_staging_tables.png
-├── pgadmin_dimensions.png
-├── pgadmin_fact_table.png
-└── pgadmin_query_results.png
-
+    ├── pgadmin_staging_tables.png
+    ├── pgadmin_dimensions.png
+    ├── pgadmin_fact_table.png
+    └── pgadmin_query_results.png
+```
 
 ## How to Run
 
@@ -85,3 +86,4 @@ See `sql/08_validation_queries.sql` for examples:
 
 - Query results example  
   ![Query Results](screenshots/pgadmin_query_results.png)
+
