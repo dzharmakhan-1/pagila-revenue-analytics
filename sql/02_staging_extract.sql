@@ -1,0 +1,11 @@
+CREATE TABLE staging.payment AS SELECT * FROM public.payment;
+CREATE TABLE staging.rental AS SELECT * FROM public.rental;
+CREATE TABLE staging.inventory AS SELECT * FROM public.inventory;
+CREATE TABLE staging.film_category AS SELECT * FROM public.film_category;
+CREATE TABLE staging.category AS SELECT * FROM public.category;
+CREATE TABLE staging.customer AS SELECT * FROM public.customer;
+CREATE TABLE staging.address AS SELECT * FROM public.address;
+CREATE TABLE staging.city AS SELECT * FROM public.city;
+CREATE TABLE staging.country AS SELECT * FROM public.country;
+CREATE TABLE staging.store AS SELECT * FROM public.store;
+CREATE TABLE staging.staff AS SELECT * FROM public.staff;
